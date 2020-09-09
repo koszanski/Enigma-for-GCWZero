@@ -1,4 +1,4 @@
-Enigma-for-GCWZero
+Enigma-for-RetroFW
 ==================
 
-Port of Enigma puzzle game to GCW Zero.
+Port of Enigma puzzle game to RetroFW devices.
