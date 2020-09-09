@@ -988,7 +988,7 @@ configure:6821: $? = 0
 configure:6821: result: yes
 configure:6821: checking for __argz_count
 configure:6821: mipsel-buildroot-linux-uclibc-gcc -o conftest -g -O2   conftest.c  >&5
-/tmp/ccJ0UUKr.o: In function `main':
+/tmp/cc74PpVg.o: In function `main':
 /opt/Enigma-for-RetroFW/conftest.c:106: undefined reference to `__argz_count'
 /opt/Enigma-for-RetroFW/conftest.c:106: undefined reference to `__argz_count'
 collect2: error: ld returned 1 exit status
@@ -1106,7 +1106,7 @@ configure: failed program was:
 configure:6821: result: no
 configure:6821: checking for __argz_stringify
 configure:6821: mipsel-buildroot-linux-uclibc-gcc -o conftest -g -O2   conftest.c  >&5
-/tmp/cct9nm6N.o: In function `main':
+/tmp/ccb1YjFB.o: In function `main':
 /opt/Enigma-for-RetroFW/conftest.c:106: undefined reference to `__argz_stringify'
 /opt/Enigma-for-RetroFW/conftest.c:106: undefined reference to `__argz_stringify'
 collect2: error: ld returned 1 exit status
@@ -1224,7 +1224,7 @@ configure: failed program was:
 configure:6821: result: no
 configure:6821: checking for __argz_next
 configure:6821: mipsel-buildroot-linux-uclibc-gcc -o conftest -g -O2   conftest.c  >&5
-/tmp/ccXi8DA7.o: In function `main':
+/tmp/ccYkEc2Y.o: In function `main':
 /opt/Enigma-for-RetroFW/conftest.c:106: undefined reference to `__argz_next'
 /opt/Enigma-for-RetroFW/conftest.c:106: undefined reference to `__argz_next'
 collect2: error: ld returned 1 exit status
@@ -1547,7 +1547,7 @@ configure:7017: $? = 0
 configure:7024: result: yes
 configure:7092: checking for iconv
 configure:7114: mipsel-buildroot-linux-uclibc-gcc -o conftest -g -O2   conftest.c  >&5
-/tmp/ccepKJe5.o: In function `main':
+/tmp/ccWXBsQY.o: In function `main':
 /opt/Enigma-for-RetroFW/conftest.c:83: undefined reference to `libiconv_open'
 /opt/Enigma-for-RetroFW/conftest.c:83: undefined reference to `libiconv_open'
 /opt/Enigma-for-RetroFW/conftest.c:84: undefined reference to `libiconv'
@@ -1671,7 +1671,7 @@ configure:7388: checking whether included gettext is requested
 configure:7398: result: no
 configure:7409: checking for GNU gettext in libc
 configure:7428: mipsel-buildroot-linux-uclibc-gcc -o conftest -g -O2   conftest.c  >&5
-/tmp/ccgjFlWn.o: In function `main':
+/tmp/cc1jQQpc.o: In function `main':
 /opt/Enigma-for-RetroFW/conftest.c:89: undefined reference to `_nl_domain_bindings'
 collect2: error: ld returned 1 exit status
 configure:7428: $? = 1
