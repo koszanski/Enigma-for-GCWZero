@@ -19,5 +19,5 @@ Config string used, ymmv with different toolchains:
 
 `make && make install`
 
-Your data files are in /opt/buildroot/output/host/usr/mipsel-buildroot-linux-uclibc/sysroot/usr/share/enigma.
-Your binary is in /opt/buildroot/output/host/usr/mipsel-buildroot-linux-uclibc/sysroot/usr/bin.
+Your data files are in `/opt/buildroot/output/host/usr/mipsel-buildroot-linux-uclibc/sysroot/usr/share/enigma`.
+Your binary is in `/opt/buildroot/output/host/usr/mipsel-buildroot-linux-uclibc/sysroot/usr/bin`.
