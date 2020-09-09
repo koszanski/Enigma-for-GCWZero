@@ -370,7 +370,7 @@ SDL_LIBS = -L/opt/buildroot/output/host/usr/mipsel-buildroot-linux-uclibc/sysroo
 SET_MAKE = 
 SHELL = /bin/bash
 STRIP = mipsel-buildroot-linux-uclibc-strip
-TEXI2HTML = 
+TEXI2HTML = /usr/bin/texi2html
 
 # Rule for creating Lua interfaces from package descriptions using 'tolua'
 TOLUA = $(top_builddir)/tools/tolua

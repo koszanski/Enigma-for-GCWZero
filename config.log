@@ -988,7 +988,7 @@ configure:6821: $? = 0
 configure:6821: result: yes
 configure:6821: checking for __argz_count
 configure:6821: mipsel-buildroot-linux-uclibc-gcc -o conftest -g -O2   conftest.c  >&5
-/tmp/cc4x4BAh.o: In function `main':
+/tmp/cchbNVri.o: In function `main':
 /opt/Enigma-for-GCWZero/conftest.c:106: undefined reference to `__argz_count'
 /opt/Enigma-for-GCWZero/conftest.c:106: undefined reference to `__argz_count'
 collect2: error: ld returned 1 exit status
@@ -1106,7 +1106,7 @@ configure: failed program was:
 configure:6821: result: no
 configure:6821: checking for __argz_stringify
 configure:6821: mipsel-buildroot-linux-uclibc-gcc -o conftest -g -O2   conftest.c  >&5
-/tmp/ccdFt36E.o: In function `main':
+/tmp/ccxtnQqH.o: In function `main':
 /opt/Enigma-for-GCWZero/conftest.c:106: undefined reference to `__argz_stringify'
 /opt/Enigma-for-GCWZero/conftest.c:106: undefined reference to `__argz_stringify'
 collect2: error: ld returned 1 exit status
@@ -1224,7 +1224,7 @@ configure: failed program was:
 configure:6821: result: no
 configure:6821: checking for __argz_next
 configure:6821: mipsel-buildroot-linux-uclibc-gcc -o conftest -g -O2   conftest.c  >&5
-/tmp/ccT3Y5k2.o: In function `main':
+/tmp/ccK0at72.o: In function `main':
 /opt/Enigma-for-GCWZero/conftest.c:106: undefined reference to `__argz_next'
 /opt/Enigma-for-GCWZero/conftest.c:106: undefined reference to `__argz_next'
 collect2: error: ld returned 1 exit status
@@ -1547,7 +1547,7 @@ configure:7017: $? = 0
 configure:7024: result: yes
 configure:7092: checking for iconv
 configure:7114: mipsel-buildroot-linux-uclibc-gcc -o conftest -g -O2   conftest.c  >&5
-/tmp/cc4sw271.o: In function `main':
+/tmp/cchHV0BY.o: In function `main':
 /opt/Enigma-for-GCWZero/conftest.c:83: undefined reference to `libiconv_open'
 /opt/Enigma-for-GCWZero/conftest.c:83: undefined reference to `libiconv_open'
 /opt/Enigma-for-GCWZero/conftest.c:84: undefined reference to `libiconv'
@@ -1671,7 +1671,7 @@ configure:7388: checking whether included gettext is requested
 configure:7398: result: no
 configure:7409: checking for GNU gettext in libc
 configure:7428: mipsel-buildroot-linux-uclibc-gcc -o conftest -g -O2   conftest.c  >&5
-/tmp/ccc1BFLe.o: In function `main':
+/tmp/cc48guzf.o: In function `main':
 /opt/Enigma-for-GCWZero/conftest.c:89: undefined reference to `_nl_domain_bindings'
 collect2: error: ld returned 1 exit status
 configure:7428: $? = 1
@@ -1967,7 +1967,8 @@ configure: failed program was:
 configure:9388: checking for mipsel-buildroot-linux-uclibc-ranlib
 configure:9415: result: mipsel-buildroot-linux-uclibc-ranlib
 configure:9496: checking for texi2html
-configure:9530: result: no
+configure:9514: found /usr/bin/texi2html
+configure:9527: result: /usr/bin/texi2html
 configure:9538: checking for pdflatex
 configure:9572: result: no
 configure:9580: checking for convert
@@ -2246,7 +2247,7 @@ ac_cv_path_MSGFMT=/usr/bin/msgfmt
 ac_cv_path_MSGMERGE=/usr/bin/msgmerge
 ac_cv_path_PDFLATEX=
 ac_cv_path_SDL_CONFIG=/opt/buildroot/output/host/usr/mipsel-buildroot-linux-uclibc/sysroot/usr/bin/sdl-config
-ac_cv_path_TEXI2HTML=
+ac_cv_path_TEXI2HTML=/usr/bin/texi2html
 ac_cv_path_XGETTEXT=/usr/bin/xgettext
 ac_cv_path_install='/usr/bin/install -c'
 ac_cv_path_mkdir=/usr/bin/mkdir
@@ -2392,7 +2393,7 @@ SDL_LIBS='-L/opt/buildroot/output/host/usr/mipsel-buildroot-linux-uclibc/sysroot
 SET_MAKE=''
 SHELL='/bin/bash'
 STRIP='mipsel-buildroot-linux-uclibc-strip'
-TEXI2HTML=''
+TEXI2HTML='/usr/bin/texi2html'
 TOLUA='$(top_builddir)/tools/tolua'
 USE_INCLUDED_LIBINTL='no'
 USE_NLS='yes'
