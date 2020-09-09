@@ -171,7 +171,9 @@ bool Video_SDL::init(int w, int h, int bpp, bool fullscreen)
 //    if (fullscreen)
 //        flags |= SDL_FULLSCREEN;
     //Note: SDL_DOUBLEBUF doesn't play nice with the menu (slow), must use SDL_TRIPLEBUF:
-    //porter's note: you will probably need to define in your SDL headers SDL_TRIPLEBUF 0x40000100 for the rs97/retrofw buildroot
+    //note: you will probably need to define in your SDL headers SDL_TRIPLEBUF 0x40000100 for the rs97/retrofw buildroot
+    //my path was /opt/buildroot/output/host/mipsel-buildroot-linux-uclibc/sysroot/usr/include/SDL/SDL_video.h
+    //sdl-config --cflags may help
     Uint32 flags = SDL_HWSURFACE | SDL_FULLSCREEN | SDL_TRIPLEBUF;     
 
     // Try to initialize vide mode, return error code on failure
