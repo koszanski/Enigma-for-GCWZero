@@ -988,9 +988,9 @@ configure:6821: $? = 0
 configure:6821: result: yes
 configure:6821: checking for __argz_count
 configure:6821: mipsel-buildroot-linux-uclibc-gcc -o conftest -g -O2   conftest.c  >&5
-/tmp/cchbNVri.o: In function `main':
-/opt/Enigma-for-GCWZero/conftest.c:106: undefined reference to `__argz_count'
-/opt/Enigma-for-GCWZero/conftest.c:106: undefined reference to `__argz_count'
+/tmp/ccJ0UUKr.o: In function `main':
+/opt/Enigma-for-RetroFW/conftest.c:106: undefined reference to `__argz_count'
+/opt/Enigma-for-RetroFW/conftest.c:106: undefined reference to `__argz_count'
 collect2: error: ld returned 1 exit status
 configure:6821: $? = 1
 configure: failed program was:
@@ -1106,9 +1106,9 @@ configure: failed program was:
 configure:6821: result: no
 configure:6821: checking for __argz_stringify
 configure:6821: mipsel-buildroot-linux-uclibc-gcc -o conftest -g -O2   conftest.c  >&5
-/tmp/ccxtnQqH.o: In function `main':
-/opt/Enigma-for-GCWZero/conftest.c:106: undefined reference to `__argz_stringify'
-/opt/Enigma-for-GCWZero/conftest.c:106: undefined reference to `__argz_stringify'
+/tmp/cct9nm6N.o: In function `main':
+/opt/Enigma-for-RetroFW/conftest.c:106: undefined reference to `__argz_stringify'
+/opt/Enigma-for-RetroFW/conftest.c:106: undefined reference to `__argz_stringify'
 collect2: error: ld returned 1 exit status
 configure:6821: $? = 1
 configure: failed program was:
@@ -1224,9 +1224,9 @@ configure: failed program was:
 configure:6821: result: no
 configure:6821: checking for __argz_next
 configure:6821: mipsel-buildroot-linux-uclibc-gcc -o conftest -g -O2   conftest.c  >&5
-/tmp/ccK0at72.o: In function `main':
-/opt/Enigma-for-GCWZero/conftest.c:106: undefined reference to `__argz_next'
-/opt/Enigma-for-GCWZero/conftest.c:106: undefined reference to `__argz_next'
+/tmp/ccXi8DA7.o: In function `main':
+/opt/Enigma-for-RetroFW/conftest.c:106: undefined reference to `__argz_next'
+/opt/Enigma-for-RetroFW/conftest.c:106: undefined reference to `__argz_next'
 collect2: error: ld returned 1 exit status
 configure:6821: $? = 1
 configure: failed program was:
@@ -1547,13 +1547,13 @@ configure:7017: $? = 0
 configure:7024: result: yes
 configure:7092: checking for iconv
 configure:7114: mipsel-buildroot-linux-uclibc-gcc -o conftest -g -O2   conftest.c  >&5
-/tmp/cchHV0BY.o: In function `main':
-/opt/Enigma-for-GCWZero/conftest.c:83: undefined reference to `libiconv_open'
-/opt/Enigma-for-GCWZero/conftest.c:83: undefined reference to `libiconv_open'
-/opt/Enigma-for-GCWZero/conftest.c:84: undefined reference to `libiconv'
-/opt/Enigma-for-GCWZero/conftest.c:84: undefined reference to `libiconv'
-/opt/Enigma-for-GCWZero/conftest.c:85: undefined reference to `libiconv_close'
-/opt/Enigma-for-GCWZero/conftest.c:85: undefined reference to `libiconv_close'
+/tmp/ccepKJe5.o: In function `main':
+/opt/Enigma-for-RetroFW/conftest.c:83: undefined reference to `libiconv_open'
+/opt/Enigma-for-RetroFW/conftest.c:83: undefined reference to `libiconv_open'
+/opt/Enigma-for-RetroFW/conftest.c:84: undefined reference to `libiconv'
+/opt/Enigma-for-RetroFW/conftest.c:84: undefined reference to `libiconv'
+/opt/Enigma-for-RetroFW/conftest.c:85: undefined reference to `libiconv_close'
+/opt/Enigma-for-RetroFW/conftest.c:85: undefined reference to `libiconv_close'
 collect2: error: ld returned 1 exit status
 configure:7114: $? = 1
 configure: failed program was:
@@ -1671,8 +1671,8 @@ configure:7388: checking whether included gettext is requested
 configure:7398: result: no
 configure:7409: checking for GNU gettext in libc
 configure:7428: mipsel-buildroot-linux-uclibc-gcc -o conftest -g -O2   conftest.c  >&5
-/tmp/cc48guzf.o: In function `main':
-/opt/Enigma-for-GCWZero/conftest.c:89: undefined reference to `_nl_domain_bindings'
+/tmp/ccgjFlWn.o: In function `main':
+/opt/Enigma-for-RetroFW/conftest.c:89: undefined reference to `_nl_domain_bindings'
 collect2: error: ld returned 1 exit status
 configure:7428: $? = 1
 configure: failed program was:
@@ -2127,9 +2127,9 @@ config.status:1081: creating src/config.h
 config.status:1262: src/config.h is unchanged
 config.status:1310: executing depfiles commands
 config.status:1310: executing default-1 commands
-configure:12622: === configuring in lib-src/zipios++ (/opt/Enigma-for-GCWZero/lib-src/zipios++)
+configure:12622: === configuring in lib-src/zipios++ (/opt/Enigma-for-RetroFW/lib-src/zipios++)
 configure:12685: running /bin/bash ./configure --disable-option-checking '--prefix=/opt/buildroot/output/host/usr/mipsel-buildroot-linux-uclibc/sysroot/usr'  '--build=x86_64' '--host=mipsel-buildroot-linux-uclibc' '--includedir=/opt/buildroot/output/host/usr/mipsel-buildroot-linux-uclibc/sysroot/usr/include' '--sysconfdir=/opt/buildroot/output/host/etc' '--with-sysroot=/opt/buildroot/output/host/usr/mipsel-buildroot-linux-uclibc/sysroot' '--with-sdl-exec-prefix=/opt/buildroot/output/host/usr/mipsel-buildroot-linux-uclibc/sysroot/usr' 'build_alias=x86_64' 'host_alias=mipsel-buildroot-linux-uclibc' --cache-file=/dev/null --srcdir=.
-configure:12622: === configuring in lib-src/enet (/opt/Enigma-for-GCWZero/lib-src/enet)
+configure:12622: === configuring in lib-src/enet (/opt/Enigma-for-RetroFW/lib-src/enet)
 configure:12685: running /bin/bash ./configure --disable-option-checking '--prefix=/opt/buildroot/output/host/usr/mipsel-buildroot-linux-uclibc/sysroot/usr'  '--build=x86_64' '--host=mipsel-buildroot-linux-uclibc' '--includedir=/opt/buildroot/output/host/usr/mipsel-buildroot-linux-uclibc/sysroot/usr/include' '--sysconfdir=/opt/buildroot/output/host/etc' '--with-sysroot=/opt/buildroot/output/host/usr/mipsel-buildroot-linux-uclibc/sysroot' '--with-sdl-exec-prefix=/opt/buildroot/output/host/usr/mipsel-buildroot-linux-uclibc/sysroot/usr' 'build_alias=x86_64' 'host_alias=mipsel-buildroot-linux-uclibc' --cache-file=/dev/null --srcdir=.
 configure:12714: result:
 
@@ -2304,16 +2304,16 @@ nls_cv_use_gnu_gettext=no
 ## Output variables. ##
 ## ----------------- ##
 
-ACLOCAL='${SHELL} /opt/Enigma-for-GCWZero/missing --run aclocal-1.11'
+ACLOCAL='${SHELL} /opt/Enigma-for-RetroFW/missing --run aclocal-1.11'
 ALLOCA=''
 ALL_LINGUAS='de fr nl it es sv ru hu pt fi uk be el pl cs gd hr sk da'
 AMDEPBACKSLASH='\'
 AMDEP_FALSE='#'
 AMDEP_TRUE=''
 AMTAR='$${TAR-tar}'
-AUTOCONF='${SHELL} /opt/Enigma-for-GCWZero/missing --run autoconf'
-AUTOHEADER='${SHELL} /opt/Enigma-for-GCWZero/missing --run autoheader'
-AUTOMAKE='${SHELL} /opt/Enigma-for-GCWZero/missing --run automake-1.11'
+AUTOCONF='${SHELL} /opt/Enigma-for-RetroFW/missing --run autoconf'
+AUTOHEADER='${SHELL} /opt/Enigma-for-RetroFW/missing --run autoheader'
+AUTOMAKE='${SHELL} /opt/Enigma-for-RetroFW/missing --run automake-1.11'
 AWK='gawk'
 BUILDTOOLS_FALSE=''
 BUILDTOOLS_TRUE='#'
@@ -2368,7 +2368,7 @@ LINUX_TRUE=''
 LTLIBICONV='-liconv'
 LTLIBINTL='-lintl'
 LTLIBOBJS=''
-MAKEINFO='${SHELL} /opt/Enigma-for-GCWZero/missing --run makeinfo'
+MAKEINFO='${SHELL} /opt/Enigma-for-RetroFW/missing --run makeinfo'
 MINGW32_FALSE=''
 MINGW32_TRUE='#'
 MKDIR_P='/usr/bin/mkdir -p'
@@ -2434,7 +2434,7 @@ host_vendor='buildroot'
 htmldir='${docdir}'
 includedir='/opt/buildroot/output/host/usr/mipsel-buildroot-linux-uclibc/sysroot/usr/include'
 infodir='${datarootdir}/info'
-install_sh='${SHELL} /opt/Enigma-for-GCWZero/install-sh'
+install_sh='${SHELL} /opt/Enigma-for-RetroFW/install-sh'
 libdir='${exec_prefix}/lib'
 libexecdir='${exec_prefix}/libexec'
 localedir='${datarootdir}/locale'

@@ -449,7 +449,7 @@ Copyright (C) 2010 Free Software Foundation, Inc.
 This config.status script is free software; the Free Software Foundation
 gives unlimited permission to copy, distribute and modify it."
 
-ac_pwd='/opt/Enigma-for-GCWZero'
+ac_pwd='/opt/Enigma-for-RetroFW'
 srcdir='.'
 INSTALL='/usr/bin/install -c'
 MKDIR_P='/usr/bin/mkdir -p'
@@ -800,12 +800,12 @@ S["mkdir_p"]="/usr/bin/mkdir -p"
 S["MKDIR_P"]="/usr/bin/mkdir -p"
 S["INSTALL_STRIP_PROGRAM"]="$(install_sh) -c -s"
 S["STRIP"]="mipsel-buildroot-linux-uclibc-strip"
-S["install_sh"]="${SHELL} /opt/Enigma-for-GCWZero/install-sh"
-S["MAKEINFO"]="${SHELL} /opt/Enigma-for-GCWZero/missing --run makeinfo"
-S["AUTOHEADER"]="${SHELL} /opt/Enigma-for-GCWZero/missing --run autoheader"
-S["AUTOMAKE"]="${SHELL} /opt/Enigma-for-GCWZero/missing --run automake-1.11"
-S["AUTOCONF"]="${SHELL} /opt/Enigma-for-GCWZero/missing --run autoconf"
-S["ACLOCAL"]="${SHELL} /opt/Enigma-for-GCWZero/missing --run aclocal-1.11"
+S["install_sh"]="${SHELL} /opt/Enigma-for-RetroFW/install-sh"
+S["MAKEINFO"]="${SHELL} /opt/Enigma-for-RetroFW/missing --run makeinfo"
+S["AUTOHEADER"]="${SHELL} /opt/Enigma-for-RetroFW/missing --run autoheader"
+S["AUTOMAKE"]="${SHELL} /opt/Enigma-for-RetroFW/missing --run automake-1.11"
+S["AUTOCONF"]="${SHELL} /opt/Enigma-for-RetroFW/missing --run autoconf"
+S["ACLOCAL"]="${SHELL} /opt/Enigma-for-RetroFW/missing --run aclocal-1.11"
 S["VERSION"]="1.21"
 S["PACKAGE"]="enigma"
 S["CYGPATH_W"]="echo"
